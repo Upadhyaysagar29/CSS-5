@@ -1,0 +1,52 @@
+body{
+    justify-content: center;
+    background-color: yellow;
+    color: black;
+    margin-left: 500px;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    margin: 10px;
+    transition-duration: 3s;
+}
+
+#box1:hover{
+transition: linear;
+transition: 3s;
+width: 250px;
+animation-name: bull;
+}
+
+@keyframes bull {
+    0%{
+background-color: aqua;
+    }
+    50%{
+        background-color: darkred;
+    }
+    100%{
+        background-color: violet;
+    }
+}
+
+#box2:hover{
+    transition: width 2s , height 4s;
+    width: 250px;
+    height: 250px;
+    }
+    
+#box3:hover{
+    transition: linear;
+    transition: 3s;
+    width: 250px;
+    }
+
+    a{
+        font-size: 20px;
+        font-weight: bold;
+        margin-bottom: 10px;
+        margin-left: 70px;
+    }
